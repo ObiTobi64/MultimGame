@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://qhtcd66x4cl8"]
+
+[ext_resource type="Script" path="res://parallax_background.gd" id="1_q6xrt"]
+[ext_resource type="Texture2D" uid="uid://cwbr1qojsf1yo" path="res://assets/Fondo/clouds.jpg" id="2_1nqbt"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+script = ExtResource("1_q6xrt")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1000, 600)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
+texture_filter = 1
+position = Vector2(74.2912, 325.889)
+scale = Vector2(0.227518, 0.163433)
+texture = ExtResource("2_1nqbt")
+region_enabled = true
+region_rect = Rect2(0, 0, 9500, 4003)

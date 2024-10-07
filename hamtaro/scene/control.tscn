@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3 uid="uid://4ypaqu6jcuxk"]
+
+[ext_resource type="FontFile" uid="uid://bbs8pqknk7fsf" path="res://assets/fonts/Kenney Blocks.ttf" id="1_y2k4b"]
+[ext_resource type="PackedScene" uid="uid://qhtcd66x4cl8" path="res://scene/parallax_background.tscn" id="2_028ga"]
+[ext_resource type="PackedScene" uid="uid://fqb70hi51ght" path="res://scene/parallax_backgroundUNI.tscn" id="3_bi0on"]
+
+[node name="Control" type="Control"]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 442.0
+offset_top = 386.0
+offset_right = 734.0
+offset_bottom = 774.0
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_y2k4b")
+theme_override_font_sizes/font_size = 40
+text = "Jugar "
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_y2k4b")
+theme_override_font_sizes/font_size = 40
+text = "Salir
+"
+flat = true
+
+[node name="ParallaxBackground" parent="." instance=ExtResource("2_028ga")]
+
+[node name="ParallaxBackground" parent="ParallaxBackground" instance=ExtResource("3_bi0on")]
+
+[connection signal="pressed" from="VBoxContainer/Button" to="ParallaxBackground" method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="ParallaxBackground" method="_on_button_2_pressed"]

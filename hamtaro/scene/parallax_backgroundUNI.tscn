@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://fqb70hi51ght"]
+
+[ext_resource type="Texture2D" uid="uid://bcxxulenurx4w" path="res://assets/Fondo/Diseño_sin_título-removebg-preview.png" id="1_nc33r"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="CapturaDePantalla2024-10-02132417-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(567, 324)
+scale = Vector2(1.86886, 1.80556)
+texture = ExtResource("1_nc33r")

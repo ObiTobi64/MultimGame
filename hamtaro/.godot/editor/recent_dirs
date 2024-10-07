@@ -1,19 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-res://script
-=======
+res://
+res://scene
+C:/webi
+D:/Godot/MultimediaGame/MultimGame/hamtaro/web
 res://scene/main
-<<<<<<< HEAD
->>>>>>> union
-=======
 res://scripts/archery
 res://assets/maps/archery
 res://scene/maps/archery
->>>>>>> archery_map
 res://scripts
-<<<<<<< HEAD
->>>>>>> archery_map
-=======
->>>>>>> union
-res://scene
 res://scene/tess

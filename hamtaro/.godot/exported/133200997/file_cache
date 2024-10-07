@@ -1,0 +1,13 @@
+res://scene/main/fondo.tscn::0af62f7db5d4ef4e37331acee6495e17::1727724784::res://.godot/exported/133200997/export-fccaf017c3327706045bd43d4c08fd88-fondo.scn
+res://scene/main/jugador.tscn::b49d62b03533a6e8d3bb14760a3b4e06::1727724784::res://.godot/exported/133200997/export-0678c963c5c8a897867ee211131177d6-jugador.scn
+res://scene/main/transicion.tscn::f51ac394babbf19030c1de9ba6bfe3c3::1727724784::res://.godot/exported/133200997/export-e5741caded1b1287dd47a969c4009b48-transicion.scn
+res://scene/maps/archery/archery_ham.tscn::fffdd1a6147ad9fb9c5c541be9e18f02::1727724784::res://.godot/exported/133200997/export-a4f80f430b599db39cc6fd0110666a63-archery_ham.scn
+res://scene/maps/archery/archery_map.tscn::51f4c34feaba798969ebbc86c0bdacbb::1727724784::res://.godot/exported/133200997/export-f9b361d8915be0a41fd4829f627e4545-archery_map.scn
+res://scene/maps/archery/arrow.tscn::ba18db3dbc213a0c1082cadecd9c3a0e::1727459793::res://.godot/exported/133200997/export-d552463b1b728dc15f4239fb0c818ce5-arrow.scn
+res://scene/maps/archery/score_board.tscn::2f13baedf279c911acb15a96b90e2bf5::1727724784::res://.godot/exported/133200997/export-0e5e40863dbbc6ea1edadc35aaa18dcb-score_board.scn
+res://scene/maps/archery/street.tscn::5a58dd636a1a5b0be8d38800fe42de23::1727724784::res://.godot/exported/133200997/export-60ee79a78ab7812a505c3b8cf4f88538-street.scn
+res://scene/tess/jugador.tscn::4733f1c1d6d56ddfadf6f7c141801d09::1727459793::res://.godot/exported/133200997/export-6ec623df5f67566275cb97ba89834c81-jugador.scn
+res://scene/control.tscn::115206368ca0ea1e958609145e275993::1727724784::res://.godot/exported/133200997/export-7a0adf631ef36521394abf48b98a53a2-control.scn
+res://scene/fondo.tscn::954c4912609dbd8bd7a05c8a947657b9::1727459793::res://.godot/exported/133200997/export-45db07fc6f2f59afffc26495d3e3b619-fondo.scn
+res://scene/jugador.tscn::b7261ea33db5e43b01e77d4d46fe215b::1727459793::res://.godot/exported/133200997/export-5a5ac6707293dd1d9eaefe24219e22ba-jugador.scn
+res://scene/transicion.tscn::379cf549aaf29ad4b119e61cbc361d1a::1727459793::res://.godot/exported/133200997/export-01620eeec555445210e5b5f219eebebd-transicion.scn

@@ -18,7 +18,6 @@
 [ext_resource type="Texture2D" uid="uid://cqy2816y8ogpa" path="res://assets/Personaje/fr.3.png" id="16_uojso"]
 [ext_resource type="Texture2D" uid="uid://cwugcgymfxubv" path="res://assets/Personaje/fr.4.png" id="17_ggc7v"]
 
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_8phex"]
 animations = [{
 "frames": [{
@@ -93,6 +92,11 @@ animations = [{
 "loop": true,
 "name": &"frente",
 "speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"frontVic",
+"speed": 5.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wcjff"]
@@ -106,7 +110,7 @@ script = ExtResource("1_s5my3")
 position = Vector2(239.75, -172.75)
 scale = Vector2(0.87736, 0.813726)
 sprite_frames = SubResource("SpriteFrames_8phex")
-animation = &"frente"
+animation = &"frontVic"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(240, -162)

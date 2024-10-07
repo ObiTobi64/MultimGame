@@ -1,3 +1,13 @@
-res://scene/main/fondo.tscn
+res://scene/main/jugador.tscn
+res://scripts/main/entrada.gd
+res://scene/main/transicion.tscn
+res://scene/maps/archery/archery_ham.tscn
 res://scene/maps/archery/archery_map.tscn
-res://scripts/archery/pointer.gd
+res://scene/maps/archery/score_board.tscn
+res://scene/maps/archery/street.tscn
+res://scene/control.tscn
+res://scene/parallax_backgroundUNI.tscn
+res://scene/parallax_background.tscn
+res://scene/main/fondo.tscn
+res://node_2d.tscn
+res://parallax_background.gd
